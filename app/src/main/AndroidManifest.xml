@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          xmlns:tools="http://schemas.android.com/tools" package="itk.myoganugraha.loginregistersql">
+          xmlns:tools="http://schemas.android.com/tools"
+          package="itk.myoganugraha.loginregistersql">
 
     <application
             android:allowBackup="true"
@@ -19,6 +20,12 @@
             </intent-filter>
         </activity>
         <activity android:name=".RegisterActivity"/>
+        <activity android:name=".AddMovieActivity"/>
+        <activity
+                android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+                android:theme="@style/Base.Theme.AppCompat"/>
+        <activity android:name=".MovieListActivity">
+        </activity>
     </application>
 
 </manifest>

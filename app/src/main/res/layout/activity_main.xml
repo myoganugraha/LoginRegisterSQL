@@ -11,6 +11,12 @@ android:orientation="vertical"
 android:layout_margin="16dp">
 
     <TextView
+            android:id="@+id/tv_userid_mainactivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    <TextView
             android:id="@+id/tv_username_mainactivity"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
@@ -18,5 +24,19 @@ android:layout_margin="16dp">
             android:id="@+id/tv_email_mainactivity"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
+
+    <LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button
+                android:id="@+id/btn_addMovieMain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Click Me"/>
+
+        <Button
+                android:id="@+id/btn_goToMovieList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Movie List"/>
+    </LinearLayout>
 
 </LinearLayout>
